@@ -1,0 +1,19 @@
+p {
+    border: 1px solid red;
+}
+
+p:nth-of-type(1) { /* 첫번째 <p> 선택 */
+    text-align: left;
+}
+
+p:nth-of-type(2) { /* 두번째 <p> 선택 */
+    text-align: center;
+}
+
+p:nth-of-type(3) { /* 세번째 <p> 선택 */
+    text-align: right;
+}
+
+p:nth-of-type(4) { /* 네번째 <p> 선택 */
+    text-align: justify; /* 양쪽 정렬 */
+}
