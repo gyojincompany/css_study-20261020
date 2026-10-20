@@ -1,0 +1,7 @@
+/* 마지막 요소 선택자 */
+
+ul li:last-child { /* 마지막 요소 선택자 */
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
