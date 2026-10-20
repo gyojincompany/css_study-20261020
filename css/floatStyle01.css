@@ -1,0 +1,39 @@
+/* 부모 div */
+div.wrap {
+    border: 5px solid red;
+    width: 350px;
+}
+
+div.wrap::after { /* 가짜요소 추가->부모 div 박스가 안깨지게 하기 위함 */
+    content: '';
+    display: block;
+    clear: both; /* float 속성 제거 */
+}
+
+div.box1, div.box2, div.box3, div.box4 { /* 자식 div들의 공통 속성 */
+    width: 100px;
+    height: 65px;
+    margin: 5px;
+    text-align: center;
+    line-height: 65px; /* 세로 정렬 가운데 */
+}
+
+div.box1 {
+    background-color: lightblue;
+    float: left;
+}
+
+div.box2 {
+    background-color: orange;
+    float: left;
+}
+
+div.box3 {
+    background-color: pink;
+    float: left;
+}
+
+div.box4 {
+    background-color: green;
+    float: left;
+}
