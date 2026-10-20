@@ -1,3 +1,7 @@
+body {
+    background-image: url(../img/pattern.png);
+}
+
 ul.menu {
     background-color: rgb(8, 38, 136);
     padding: 15px;
@@ -8,10 +12,10 @@ ul.menu {
 
 
 ul.menu li {
-    display: inline-block; /* 인라인 속성으로 변경 */
+    display: inline-block; /* 인라인 속성으로 변경 */    
     margin-right: 20px;
 }
 
 ul.menu li:last-child { /* 마지막 리스트 요소는 오른쪽 마진 제거 */
-    margin-right: 0px;
+    margin-right: 0px; 
 }

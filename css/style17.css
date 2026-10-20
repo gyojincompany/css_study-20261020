@@ -1,0 +1,21 @@
+section.sec1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../img/pattern.png);
+    /* background-repeat: no-repeat; /*이미지를 반복 하지 않음 */
+    /* background-position: center center; */
+    /* background-repeat: repeat-x; 가로로 이미지를 반복
+    background-repeat: repeat-y; 세로로 이미지를 반복 */
+}
+
+
+section.sec2 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../img/rose.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
