@@ -1,0 +1,16 @@
+p {
+    border: 1px solid red;
+    height: 100px;
+}
+
+span {
+    border:1px solid green;
+    height: 50px; /* 인라인요소->width, height 적용되지 않음 */
+    display: inline-block; /* 인라인 속성과 블록 속성을 모두 사용하겠다 */
+}
+
+strong, em {
+    border: 1px solid blue;
+    height: 50px; /* 인라인요소->width, height 적용되지 않음 */
+    display: block; /* 블록 속성으로 변경! */
+}

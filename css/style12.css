@@ -1,0 +1,29 @@
+article {
+    border: 1px solid red;
+}
+
+div {
+    border: 1px solid blue;
+    width:800px;
+}
+
+article:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+}
+
+article:nth-of-type(2) {
+    width: 50%; /* 부모태그의 가로 길이의 50% */
+    height: 20%;
+}
+
+article:nth-of-type(3) {
+    width: 10vw; /* 웹 브라우저의 너비를 기준으로 너빗값과 높잇값을 백분율로 지정 */
+    height: 10vw;
+}
+
+article:nth-of-type(3) {
+    width: 10vh; /* 웹 브라우저의 높이를 기준으로 너빗값과 높잇값을 백분율로 지정 */
+    height: 10vh;
+}
+

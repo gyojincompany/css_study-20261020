@@ -1,0 +1,41 @@
+article {
+    border: 1px solid red;
+    width: 50px;
+    height: 30px;
+}
+
+article:nth-of-type(1) { /* 상 하 좌 우 모두 20px 여백 */
+    margin: 20px;
+}
+
+article:nth-of-type(2) { /* 상하는 20px 여백, 좌우는 50px 여백 */
+    margin: 20px 50px;
+}
+
+article:nth-of-type(3) { /* 상하는 20px 여백, 좌우가 무조건 중앙 정렬 */
+    margin: 20px auto;
+}
+
+article:nth-of-type(4) { /* 위쪽은 20px 여백, 좌우가 무조건 중앙 정렬, 아래쪽은 40px 여백 */
+    margin: 20px auto 40px;
+}
+
+article:nth-of-type(5) { /* 위 부터 시계 방향으로 위 0px, 오른쪽 10px, 아래 20px, 왼쪽 30px 여백 */
+    margin: 0px 10px 20px 30px;
+}
+
+article:nth-of-type(6) { /* 왼쪽만 20px 여백 */
+    margin-left: 20px;
+}
+
+article:nth-of-type(7) { /* 오른쪽만 20px 여백 */
+    margin-right: 20px;
+}
+
+article:nth-of-type(8) { /* 위에만 20px 여백 */
+    margin-top: 20px;
+}
+
+article:nth-of-type(7) { /* 밑에만 20px 여백 */
+    margin-bottom: 20px;
+}

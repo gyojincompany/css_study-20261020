@@ -1,0 +1,21 @@
+article {
+    border:1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+article:nth-of-type(1) {
+    padding: 0px;
+}
+
+article:nth-of-type(2) {
+    padding: 30px;
+    box-sizing: border-box; /* 기존의 박스크기를 유지시킴 */
+}
+
+input[type=text] {
+    padding: 20px;    
+    width: 500px;
+    border: 1px solid blue;    
+}
+
