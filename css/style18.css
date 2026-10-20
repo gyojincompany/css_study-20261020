@@ -1,5 +1,5 @@
 section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 90vw; /* 웹 브라우저의 화면 크기의 90% */
     height: 90vh;
     margin: 4vh auto;    

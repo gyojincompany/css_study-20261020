@@ -1,0 +1,23 @@
+/* 웹 브라우저 왼쪽과 상단의 기본 여백 삭제 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;/* 목록 태그의 요소 앞 기호 삭제 */
+}
+
+a {
+    text-decoration: none;/* 하이퍼링크의 밑줄을 삭제 */
+}
+
+body {
+    background-color: red; 
+}
+
+div {
+    width: 800px;
+    height: 100px;
+    background-color: blue;
+}
