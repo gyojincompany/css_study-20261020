@@ -1,0 +1,32 @@
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+input[type=text] {
+    border:1px solid blue;
+}
+
+input[type=password] {
+    border: 1px solid red;
+}
+
+h1 { /* 평상시 스타일 */
+    border:1px solid blue;
+}
+
+h1:hover { /* 마우스 포인터가 해당 영역으로 올라왔을때 보일 스타일 */
+    border:1px solid red;
+}
+
+h1:before {
+    content: "★";
+   
+}
+
+h1:after {
+    content: "★";
+   
+}

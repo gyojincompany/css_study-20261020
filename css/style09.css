@@ -1,0 +1,13 @@
+p.text1 {
+    font-size: 20px;
+    border: 1px solid red;
+    line-height: 40px; /* px로 표시 */
+    
+}
+
+p.text2 {
+    font-size: 20px;
+    border: 1px solid blue;
+    line-height: 1.5; /* px 기호표시 없음 -> 폰트 크기 기준으로 1.5배의 줄간격 */
+    
+}

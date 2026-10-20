@@ -1,0 +1,19 @@
+html { /* 최상위 요소의 폰트 크기 */
+    font-size: 16px;
+}
+
+article {
+    font-size: 40px;
+}
+
+article h1 {
+    font-size: 3em; /* 바로 위 상위 요소의 폰트 크기 3배 크기 */
+}
+
+article p {
+    font-size: 1em; /* 바로 위 상위 요소의 폰트 크기 1배 크기 */
+}
+
+article a{
+    font-size: 0.8em; /* 바로 위 상위 요소의 폰트 크기 0.8배 크기 */
+}
