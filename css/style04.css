@@ -1,0 +1,11 @@
+/* 홀수와 짝수 선택자 */
+
+ul li:nth-of-type(odd) { /* 홀수 선택자 */
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+ul li:nth-of-type(even) { /* 짝수 선택자 */
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
